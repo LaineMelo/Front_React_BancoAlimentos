@@ -3,11 +3,10 @@
   background-color: #f2f2f2;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  max-width: 600px;
+  width: fit-content;
   min-height: 350px;
-  max-height: 500px;
-  padding: 20px;
-  padding-top: 50px;
+  max-height: max-content;
+  padding: 3%;
   position: absolute;
   display: grid;
   top: 0;
@@ -16,6 +15,20 @@
   left: 0;
   margin: auto;
 }
+
+  .search > h1{
+    font: normal normal 500 20px/22px Segoe UI;
+    margin-bottom: 10%;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    width: fit-content;
+    padding: 1%;
+    color: #003B4A;
+    background-color: #e7e7e7;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+  }
 
     label{
         font: normal normal normal 16px/22px Segoe UI;
@@ -39,8 +52,8 @@
     border: 0;
     cursor: pointer;
     font-size: 16px;
-    margin-bottom: 6px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
     padding: 10px;
     transition: all 0.3s ease;
     width: 100%;

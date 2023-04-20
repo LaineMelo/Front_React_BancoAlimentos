@@ -1,36 +1,24 @@
 
-.title{
-    color: #f2f2f2;
-    position: absolute;
-    width: 100% ;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    top: calc(40% - 200px);
-    font: normal normal bold 30px/34px Segoe UI;
 
-    }
+.buttonEntrar {
 
-    .buttonEntrar {
+  background: #05F3DB 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 25px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  font: normal normal bold 18px/22px Segoe UI;
+  color: #003c4b;
+  position: absolute;
+  top: 550px;
+  left: 450px;
+  z-index: 10;
 
-        background: #05F3DB 0% 0% no-repeat padding-box;
-        border-radius: 10px;
-        opacity: 1;
-        border: 0;
-        cursor: pointer;
-        font-size: 16px;
-        margin-bottom: 25px;
-        padding: 10px;
-        transition: all 0.3s ease;
-        margin-top: 30px;
-        text-decoration: none;
-        text-align: center;
-        font: normal normal bold 18px/22px Segoe UI;
-        color: #003B4A;
-        position: absolute;
-        top: 550px;
-        left: 450px;
-        z-index: 10;
-      
-      }
+}

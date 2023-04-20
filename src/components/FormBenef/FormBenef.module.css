@@ -59,10 +59,6 @@
 
   }
 
-  p{
-    text-align: end;
-    font: normal normal 500 12px/22px Segoe UI;
-  }
   @media screen and (min-width: 1000px) {
     .container {
     width: 60%;
