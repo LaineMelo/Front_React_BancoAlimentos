@@ -1,0 +1,93 @@
+.loginform {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  min-height: 350px;
+  max-height: 360px;
+  padding: 2%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  
+}
+
+.h1 {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font: normal normal normal 24px/22px Segoe UI;
+
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font: normal normal normal 14px/22px Segoe UI;
+}
+
+.input[type="text"],
+.input[type="password"] {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 3%;
+  padding: 6px;
+  height: 5%;
+}
+
+.button {
+
+  background: #05F3DB 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 25px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+  text-decoration: none;
+  text-align: center;
+  font: normal normal bold 18px/22px Segoe UI;
+  color: #003B4A;
+
+}
+
+.button:hover {
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  color: #003B4A;
+
+}
+
+.input[type="password"],
+      [type="text"]:focus {
+  outline: none;
+}
+
+.forget {
+  color: #595959;
+  text-decoration: none;
+  font-size: x-small;
+  font: normal normal normal Segoe UI;
+  display: flex;
+  justify-content: space-around;
+}
+
+.forget:hover {
+  text-decoration: underline;
+}

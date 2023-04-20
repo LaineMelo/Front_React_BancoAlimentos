@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-wrap: row;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:90%;
+    height:750px;
+    border: 1px solid var(--unnamed-color-707070);
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 2%;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.legend{
+  font: normal normal normal 18px/22px Segoe UI;
+  text-align: left;
+  font-weight: 600;
+}
+
+
+  
+.bloco {
+    display: inline-table;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 0.5%;
+    padding-left: 20px;
+    margin: 0;
+    font: normal normal normal 14px/22px Segoe UI;
+  }
+  
+  .bloco > label{
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-weight:400;
+    font-weight: 600;
+  }
+  .input{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    height: 5%;
+    width: 90%;
+    flex-grow: 1;
+    background-color: #FFFFFF;
+  }
+  
+  .input:focus{
+   outline: none;
+
+  }
+  @media screen and (min-width: 1000px) {
+    .container {
+    width: 60%;
+    }
+
+  }

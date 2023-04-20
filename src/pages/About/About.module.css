@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+    width: 100%;
+    margin-top: 0.2%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #38383867;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font: normal normal normal 28px/30px Segoe UI;
+    
+    
+  }
+  .p{
+
+    margin-left: 20%;
+    margin-right: 10%;
+    justify-content: center;
+    font-weight: 500;
+    font-size: medium;
+    text-align: justify;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 3%;
+    font: normal normal normal 14px/22px Segoe UI;
+}
+
+  .title{
+    margin-top: 3%;
+    margin-left: 22%;
+    margin-bottom: 0;
+    justify-content: center;
+    font-weight: 100;
+    font-size: xx-large;
+    color: #f2f2f2;
+    font: normal normal bold 28px/30px Segoe UI;
+
+  }
+

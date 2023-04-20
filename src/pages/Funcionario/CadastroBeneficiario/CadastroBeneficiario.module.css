@@ -1,0 +1,11 @@
+.title{
+    color: #f2f2f2;
+    position: relative;
+    display: flex;
+    top: 60px;
+    justify-content: center;
+    font: normal normal normal 26px/30px Segoe UI;
+    font-weight: 600;
+    
+
+}

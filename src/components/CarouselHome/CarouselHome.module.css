@@ -1,0 +1,23 @@
+.img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 7px;
+}
+
+.carouselInner {
+  width: calc(100% - 240px);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 190px;
+  margin: auto;
+  margin-top: 140px;
+}
+
+@media screen and (max-width: 1000px) {
+  .carouselInner {
+    width: 96%;
+    left: 2%;
+  }
+}

@@ -1,0 +1,15 @@
+.container {
+    height: 25px;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    background: var(--unnamed-color-3f8c84) 0% 0% no-repeat padding-box;
+    background: #3F8C84 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
