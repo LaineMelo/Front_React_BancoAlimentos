@@ -19,12 +19,10 @@
 
 .imgTop{
     width: 90px;
-    position: absolute;
-    top: -750px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+    position: relative;
+ margin-top: 45px;
+    margin-left: 40%;
+
     z-index: 100;
 }
 
