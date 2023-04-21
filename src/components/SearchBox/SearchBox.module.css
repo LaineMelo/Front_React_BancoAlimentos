@@ -17,21 +17,17 @@
 }
 
   .search > h1{
-    font: normal normal 500 20px/22px Segoe UI;
-    margin-bottom: 10%;
-    border: 1px solid #dddddd;
-    border-radius: 2px;
+    font: normal normal 500 20px/22px sans-serif;
     width: fit-content;
     padding: 1%;
-    color: #003B4A;
-    background-color: #e7e7e7;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     
   }
 
     label{
-        font: normal normal normal 16px/22px Segoe UI;
+        font: normal normal normal 16px/22px sans-serif;
+        margin-top: 3%;
  }
 .input{
     border: none;
@@ -45,51 +41,21 @@
     background-color: #FFFFFF;
 }
 
-.button{
-    background: #05F3DB 0% 0% no-repeat padding-box;
-    border-radius: 5px;
-    opacity: 1;
-    border: 0;
-    cursor: pointer;
-    font-size: 16px;
-    margin-bottom: 20px;
-    margin-top: 15px;
-    padding: 10px;
-    transition: all 0.3s ease;
-    width: 100%;
-    font: normal normal normal 16px/22px Segoe UI;
-    font-weight: 600;
 
-}
-
-.delete{
-
-   background: #f74a4a 0% 0% no-repeat padding-box;
-   border-radius: 10px;
-   opacity: 1;
-   border: 0;
-   cursor: pointer;
-   font-size: 16px;
-   margin-bottom: 6px;
-   margin-top: 30px;
-   transition: all 0.3s ease;
-   width: 200px;
-   height: 50px;
-   font: normal normal normal 16px/22px Segoe UI;
-   font-weight: 600;
-}
 
 .box {
     max-width: 550px;
     border-radius: 5px;
     overflow: auto;
     background-color: #d1e7dd;
+    margin-bottom: 20px;
     
   }
 
 .table{
 height: 100%;
 width: 100%;
+margin-bottom: 50px;
 
 
 }
@@ -105,4 +71,10 @@ width: 100%;
     padding-right: 4rem;
     writing-mode: sideways-rl;
     background-color: #bcd0c7;
+  }
+
+  @media screen and (min-width: 1000px){
+    .search{
+      left:180px;
+    }
   }

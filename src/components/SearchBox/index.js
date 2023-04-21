@@ -65,8 +65,9 @@ function SearchBox() {
 
     <div className={styles.search}>
       <h1>Pesquisar Beneficiário Cadastrado</h1>
-      <div className="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button className="btn btn-link btn-sm position-absolute top-10 end-50 translate-middle-y" onClick={() => navigate(-1)}>Voltar</button>
+      <hr></hr>
+      <div>
+          <button className="btn btn-light btn-sm" onClick={() => navigate(-1)}>Voltar</button>
         </div>
       <form className={styles.form} onSubmit={handleSearchSubmit}>
         
@@ -75,7 +76,7 @@ function SearchBox() {
           
           <input className="form-control" type="text" value={searchId} onChange={handleSearchChange} />
         </label>
-        <button className={styles.button}>Pesquisar</button>
+        <button className="btn btn-info btn-sm">Pesquisar</button>
       </form>     
       
       <label>
@@ -105,7 +106,7 @@ function SearchBox() {
         </div>
       </label>
       <form onClick={handleDeleteSubmit}>
-        <button className="btn btn-outline-danger" type="submit">Excluir </button>
+        <button className="btn btn-outline-danger btn-sm" type="submit">Excluir </button>
       </form>
     </div>
   );

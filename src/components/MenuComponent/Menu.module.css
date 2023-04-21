@@ -1,6 +1,6 @@
 
 .box > h1{
-    font: normal normal 400 22px/26px Segoe UI;
+    font: normal normal 400 22px/26px sans-serif;
 }
 
 .box{
@@ -22,7 +22,7 @@
     opacity: 1;
     padding: 2%;
     margin-bottom: 0;
-    margin-top: 150px;
+    margin-top: 120px;
     justify-content: center;
     align-items: center;
 
@@ -31,6 +31,7 @@
 @media screen and (min-width: 1000px) {
     .box {
     width: 65%;
+    left: 8%;
     }
 
 }

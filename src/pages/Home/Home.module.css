@@ -6,6 +6,7 @@
     right: 0;
     bottom: 0;
     left: 0;
+    margin:0;
     text-align: center;
     margin-top: 145px; 
     /* UI Properties */
@@ -21,17 +22,17 @@
     top: -500px;
     right: 0;
     bottom: 0;
-    left: 10%;
+    left: 0;
     margin: auto;
 }
 
 @media screen and (min-width: 1000px) {
-    .title > h1 {
-      left: 20%;
-      top: 0;
-    }
+  
     .title > h2 {
         left: 20%;
         top: 0;
+      }
+      .imgTop{
+        left: 150px;
       }
 }  

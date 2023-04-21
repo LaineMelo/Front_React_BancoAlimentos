@@ -1,9 +1,5 @@
 import Login from '../../auth/components/formLogin'
 
-
-
-
-
 function LoginFuncionario() {
 
     return (

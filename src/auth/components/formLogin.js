@@ -8,7 +8,7 @@ function LoginForm() {
       <h1 className={styles.h1}>Acesso Funcionário</h1>
       <hr></hr>
       <h2 className={styles.h2}>Login</h2>
-      <form>
+      <form className={styles.form}>
         <label htmlFor="username">Usuário</label>
         <input className={styles.input} type="text" id="username" name="username" />
 

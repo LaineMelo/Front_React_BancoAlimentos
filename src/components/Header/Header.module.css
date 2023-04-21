@@ -17,11 +17,20 @@
 
 }
 
-.container > h1{
+.h1{
     font: normal normal 500 18px/22px sans-serif;
     text-align: center;
     margin-top: 1px; 
-    margin-left: 10%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
     opacity: 1;
     color: #ffff;
+}
+
+@media screen and (min-width: 1000px){
+    .h1{
+        margin-left: 180px;
+    }
 }

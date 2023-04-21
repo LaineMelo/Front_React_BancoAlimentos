@@ -3,8 +3,7 @@ import styles from './CadastroBeneficiario.module.css'
 
 function CadastroBeneficiario() {
     return (
-        <div>
-                <h1 className={styles.title}>Cadastro de Beneficiários</h1>         
+        <div>       
             <Form />
         </div>
     )

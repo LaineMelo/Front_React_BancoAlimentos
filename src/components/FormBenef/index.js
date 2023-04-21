@@ -75,10 +75,13 @@ function FormBenef() {
       <form className={styles.container} onSubmit={handleSubmit}>
         <div >
           <fieldset>
-            <legend className={styles.legend}>Dados Pessoais</legend>
-            <div className="d-grid gap-2 d-md-flex justify-content-md-end ">
-              <button className="btn btn-link btn-sm position-absolute top-10 end-50 translate-middle-y" onClick={() => navigate(-1)}>Voltar</button>
+            <h2>Cadastro de Beneficiários</h2>
+            <hr></hr>
+             <div >
+              <button className="btn btn-light btn-sm" onClick={() => navigate(-1)}>Voltar</button>
             </div>
+            <legend className={styles.legend}>Dados Pessoais</legend>
+           
             <div className='row g-3'>
               <div className='col-12'>
                 <label htmlFor="nome">Nome*:</label>
