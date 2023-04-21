@@ -2,6 +2,7 @@
 
 .title > h2 {
     position: absolute;
+    height: fit-content;
     top: 0;
     right: 0;
     bottom: 0;
@@ -19,17 +20,18 @@
 .imgTop{
     width: 90px;
     position: absolute;
-    top: -500px;
+    top: -750px;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
+    z-index: 100;
 }
 
 @media screen and (min-width: 1000px) {
   
     .title > h2 {
-        left: 20%;
+        left: 150px;
         top: 0;
       }
       .imgTop{

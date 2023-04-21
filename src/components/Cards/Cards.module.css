@@ -1,15 +1,10 @@
-.background{
-  background-color: #f2f2f2;
-  margin: 0;
-  padding: 0;
-  height: 260px;
-}
+
 
 .container {
   display: flex;
   flex-wrap: row;
   justify-content: space-between;
-  margin-top: 45%;
+  margin-top: 40%;
   margin-left: 230px;
   margin-right: 70px;
   padding-top: 3%;
@@ -24,7 +19,7 @@ height: fit-content;
 margin-left: 5px;
 margin-right: -58px;
 margin-top: 0;
-color:#3F8C84;
+color:#f2f2f2;
 font: normal normal 600 24px/20px sans-serif;
 writing-mode: vertical-rl;
 transform: rotate(180deg);
@@ -34,7 +29,7 @@ text-orientation: sideways-right;
 
 .card {
   width: 20%;
-  background-color: #c1cccb86;
+  background-color: #f2f2f2;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   
