@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import styles from './SideBar.module.css'
 import React, { useRef } from 'react';
-
+import logo from '../../img/logo.png'
 function SideBar() {
   const sidebarRef = useRef(null);
 
@@ -19,6 +19,8 @@ function SideBar() {
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
       </div>
+      <img src={logo} className={styles.logo}></img>
+      <h1 className={styles.titleSide}>Sistema de gerenciamento de Cestas</h1>
       {<nav>
         <ul>     
         <li className={styles.item}>
