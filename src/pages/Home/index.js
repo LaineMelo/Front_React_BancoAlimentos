@@ -1,5 +1,6 @@
 import CarouselHome from '../../components/CarouselHome/index'
 import Cards from '../../components/Cards/index'
+import solidarity from '../../img/solidarity.png'
 import styles from './Home.module.css'
 
 
@@ -8,7 +9,7 @@ function Home() {
         <div >
             <div>
                 <fieldset className={styles.title}>
-                    <h1 >Banco de Alimentos</h1>
+                    <img src={solidarity} className={styles.imgTop}></img>
                     <h2 >Sistema de gerenciamento e controle de distribuição de cestas</h2>
                 </fieldset>
                 <CarouselHome />

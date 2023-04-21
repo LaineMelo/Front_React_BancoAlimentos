@@ -1,22 +1,43 @@
+.background{
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  height: 260px;
+}
+
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: row;
   justify-content: space-between;
-  margin-top: 40%;
+  margin-top: 45%;
   margin-left: 230px;
   margin-right: 70px;
+  padding-top: 3%;
+  
 
+}
+
+.titleH2{
+position: relative;
+display: block;
+height: fit-content;
+margin-left: 5px;
+margin-right: -58px;
+margin-top: 0;
+color:#3F8C84;
+font: normal normal 600 24px/20px sans-serif;
+writing-mode: vertical-rl;
+transform: rotate(180deg);
+text-orientation: sideways-right;
 
 }
 
 .card {
   width: 20%;
-  margin-bottom: 20px;
-  background-color: #f2f2f2;
+  background-color: #c1cccb86;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-
-
+  
 }
 
 @media screen and (max-width: 1000px) {
@@ -28,11 +49,14 @@
   }
   .container{
     margin-top: calc(40% + 150px);
-    margin-left: 0;
+    margin-left: 80px;
     margin-right: 0;
     justify-content: center;
+    
   }
-
+ .titleH2{
+  left:-55px;
+ }
 
 }
 
@@ -50,12 +74,12 @@
   margin-bottom: 5px;
   font-size: 18px;
   text-align: center;
-  font: normal normal bold 20px/24px Segoe UI;
+  font: normal normal 500 18px/20px sans-serif;
 }
 
 .text {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  font: normal normal normal 14px/18px Segoe UI;
+  font: normal normal normal 14px/18px sans-serif;
 }

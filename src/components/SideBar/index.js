@@ -21,6 +21,7 @@ function SideBar() {
       </div>
       <img src={logo} className={styles.logo}></img>
       <h1 className={styles.titleSide}>Sistema de gerenciamento de Cestas</h1>
+      
       {<nav>
         <ul>     
         <li className={styles.item}>
@@ -43,6 +44,7 @@ function SideBar() {
         </Link>
         </li>
         </ul>
+        
       </nav>
       }
     </div>

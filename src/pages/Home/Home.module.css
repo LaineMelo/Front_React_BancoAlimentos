@@ -1,65 +1,28 @@
 
-.title > h1 {
-    width: fit-content;
-    padding: 2%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto; 
-    margin-top: 25px; 
-    /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal bold 32px/43px Segoe UI;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-262626);
-    text-align: left;
-    font: normal normal bold 34px/30px Segoe UI;
-    letter-spacing: 0px;
-    color: #262626;
-    opacity: 1;
-    color: #ffff;
-}
 
 .title > h2 {
-    width: fit-content;
-    padding: 1%;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto; 
-    margin-top: 80px; 
+    text-align: center;
+    margin-top: 145px; 
     /* UI Properties */
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 25px/33px Segoe UI;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-707070);
-    text-align: left;
-    font: normal normal normal 20px/26px Segoe UI;
-    letter-spacing: 0px;
-    color: #707070;
+    font: normal normal normal 20px/26px sans-serif;
     opacity: 1;
     color: #ffff;
-    border-radius: 10px;
+    
 }
 
-.text {
+.imgTop{
+    width: 90px;
     position: absolute;
-    top: 300px;
-    left: 42%;
-    width: fit-content;
-    height: fit-content;
-    font: var(--unnamed-font-style-normal) normal bold 32px/43px Segoe UI;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-707070);
-    text-align: left;
-    font: normal normal normal 20px/26px Segoe UI;
-    letter-spacing: 2px;
-    color: #707070;
-    background-color: #ffff;
-    opacity: 1;
-    border-radius: 10px;
+    top: -500px;
+    right: 0;
+    bottom: 0;
+    left: 10%;
+    margin: auto;
 }
 
 @media screen and (min-width: 1000px) {
