@@ -119,13 +119,13 @@ function FormBenef() {
                   value={cep}
                   onChange={(e) => setcep(e.target.value)} className="form-control form-control-sm" />
               </div>
-              <div className={'col-9'}>
+              <div className='col-md-9'>
                 <label htmlFor="logradouro">Logradouro*:</label>
                 <input type="text" required title="Campo obrigatório"
                   value={logradouro}
                   onChange={(e) => setlogradouro(e.target.value)} className="form-control form-control-sm" />
               </div>
-              <div className='col-3'>
+              <div className='col-md-3'>
                 <label htmlFor="numero">Número*:</label>
                 <input type="text" required title="Campo obrigatório"
                   value={numero}

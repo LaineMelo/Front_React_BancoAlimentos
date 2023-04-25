@@ -19,7 +19,7 @@ function SearchBox() {
 
       // Cria a tabela HTML a partir dos dados JSON
       const table = document.getElementById('table');
-      table.innerHTML = ''
+      
       const tbody = table.createTBody();
       const tr = tbody.insertRow();
       for (const key in data) {
@@ -34,6 +34,7 @@ function SearchBox() {
       console.error(error);
     }
     setSearchId('');
+  
   }
 
   async function handleDeleteSubmit(event) {

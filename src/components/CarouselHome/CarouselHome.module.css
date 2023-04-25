@@ -1,24 +1,24 @@
 .img {
-  width: 100%;
   height: fit-content;
-  border-radius: 7px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .carouselInner {
-  width: calc(100% - 240px);
+  width: 70vw;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 190px;
+  left: 200px;
   margin: auto;
-  margin-top: 190px;
+  margin-top: calc(40vh - 100px );
   height: fit-content;
 }
 
 @media screen and (max-width: 1000px) {
   .carouselInner {
-    width: 96%;
-    left: 2%;
+    width: 95%;
+    left: 10px;
   }
 }
