@@ -3,22 +3,3 @@
 
 
 
-.imgTop{
-    width: fit-content;
-    position: absolute;
-    top:50px;
-    left: 380px;
- 
-    
-}
-
-@media screen and (max-width: 1000px) {
-  
- 
-
-      .imgTop{
-       width: 40%;
-        left: 3%;
-      }
-
-}  

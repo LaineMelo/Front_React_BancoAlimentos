@@ -12,8 +12,19 @@
   bottom: 0;
   left: 200px;
   margin: auto;
-  margin-top: calc(40vh - 100px );
+  margin-top: calc(40vh - 120px );
   height: fit-content;
+}
+
+.imgTop{
+  box-sizing: border-box;
+  width: fit-content;
+  height: 15vh;
+  position: absolute;
+  top: 22px;
+  left: 200px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;  
 }
 
 @media screen and (max-width: 1000px) {
@@ -21,4 +32,7 @@
     width: 95%;
     left: 10px;
   }
+  .imgTop{
+      left: 10px;
+    }
 }
