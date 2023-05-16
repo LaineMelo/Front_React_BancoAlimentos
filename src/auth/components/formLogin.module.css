@@ -100,7 +100,7 @@
 .forget:hover {
   text-decoration: underline;
 }
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1025px){
   .loginform{
     left: 180px;
   }

@@ -4,12 +4,11 @@ import card2Img from '../../img/doacv1.png'
 import card3Img from '../../img/doacv2a.png' 
 import card4Img from '../../img/instv1a.png'
 import styles from "./Cards.module.css"
-import imgCard from '../../img/imgCard.png'
+
 
 const Cards = () => {
   return (           
         <div className={styles.background}>
-          <img src={imgCard} className={styles.imgCard}></img>
           <div className={styles.container}>
             <div className={styles.card}>
               <img src={card1Img} alt="Imagem 1" className={styles.image} />

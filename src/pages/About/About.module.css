@@ -1,7 +1,8 @@
 .container {
     position: relative;
-    width: 100%;
+    width: fit-content;
     margin-top: 0.2%;
+    margin-left: 200px;
   }
   
   .image {
@@ -49,8 +50,8 @@
   }
   .p{
 
-    margin-left: 20%;
-    margin-right: 10%;
+    margin-left: 300px;
+    margin-right: 100px;
     justify-content: center;
     font-weight: 500;
     font-size: medium;
@@ -63,7 +64,7 @@
 
   .title{
     margin-top: 3%;
-    margin-left: 22%;
+    margin-left: 350px;
     margin-bottom: 0;
     justify-content: center;
     font-weight: 100;
@@ -71,5 +72,15 @@
     color: #f2f2f2;
     font: normal normal bold 28px/30px sans-serif;
 
+  }
+
+  @media (max-width: 1025px) {
+    .container{
+      margin-left: 10px;
+    }
+    .p{
+      margin-left: 110px;
+    }
+    
   }
 

@@ -126,7 +126,7 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .sidebar {
     left: -190px;
     top: 0;
@@ -141,7 +141,7 @@
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1025px) {
   .sidebar {
     position: fixed;
     top: 0;

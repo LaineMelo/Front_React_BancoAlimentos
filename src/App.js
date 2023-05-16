@@ -23,6 +23,7 @@ function App() {
           <Route path="/About" element={<About/>} />
           <Route path="/Parceiros" element={<Parceiros/>} />
           <Route path="/LoginFuncionario/MenuPrincipal" element={<MenuPrincipal />} />
+          <Route path="/PortalBeneficiario" element={<PortalBeneficiario/>} />
           <Route path="/LoginFuncionario" element={<Funcionario />} />
           <Route path="/LoginFuncionario/MenuPrincipal/CadastroBeneficiario" element={<CadastroBeneficiario />} />
           <Route path="LoginFuncionario/MenuPrincipal/PortalBeneficiario" element={<PortalBeneficiario />} />

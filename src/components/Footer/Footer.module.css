@@ -1,16 +1,15 @@
 .footer {
-
     background: #3F8C84;
     opacity: 1;
     color: #fff;
-    margin: 0;
-    bottom:0;
     position: fixed;
+    margin: 0;
+    bottom: 0;
     width: 100%;
-    height: 40px;
-    left: 0;
     text-align: center;
-}
+    height: auto;
+  }
+  
 
 
 .logo {
@@ -18,4 +17,13 @@
     top: -30px;
     right: 5px;
     width: 65px;
+}
+.txtFooter{
+    font: normal normal 100 12px/14px sans-serif;
+    margin-top: 15px;
+}
+@media (min-width: 1025px){
+    .footer{
+       padding-left: 200px;
+    }
 }

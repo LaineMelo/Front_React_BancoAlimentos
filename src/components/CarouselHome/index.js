@@ -8,7 +8,10 @@ import imgSistema from '../../img/imgSistema.png'
 function CarouselHome() {
     return (
         <div>
-            <img src={imgSistema} className={styles.imgTop}></img>
+            <div className={styles.titleBox}>
+                <h1 className={styles.titleHome}>Banco de Alimentos</h1>
+                <h2 className={styles.titleHome}>Sistema de controle e gerenciamento e cestas</h2>
+            </div>
             <div className={styles.carouselInner}>
                     <Carousel  indicators={false}>
                         <Carousel.Item >
