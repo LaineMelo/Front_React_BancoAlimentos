@@ -3,16 +3,16 @@
     top: 0;
     left: 0;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:95%;
+    margin-left: 350px;
+    margin-right: 150px;
+    width:fit-content;
     height:max-content;
     background: #f2f2f2 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 10px;
     opacity: 1;
     padding: 2%;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     margin-top: 80px;
 
 }
@@ -60,10 +60,10 @@
   }
 
 
-  @media screen and (min-width: 1025px) {
+  @media screen and (max-width: 1025px) {
     .container {
-    width: 60%;
-      left: 100px;
+    width: 95%;
+    margin-left: 15px;
     }
 
   }

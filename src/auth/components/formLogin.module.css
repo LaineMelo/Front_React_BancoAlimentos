@@ -5,7 +5,7 @@
   max-width: 350px;
   min-height: 350px;
   max-height: 450px;
-  padding: 2%;
+  padding: 20px;
   position: absolute;
   top: 0;
   right: 0;
@@ -100,8 +100,9 @@
 .forget:hover {
   text-decoration: underline;
 }
-@media screen and (min-width: 1025px){
+@media screen and (max-width: 1025px){
   .loginform{
-    left: 180px;
+    left: 25px;
+    right:15px;
   }
 }

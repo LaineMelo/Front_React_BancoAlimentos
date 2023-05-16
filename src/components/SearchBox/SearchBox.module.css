@@ -5,15 +5,15 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   width: fit-content;
   min-height: 350px;
-  max-height: max-content;
+  max-height: fit-content;
   padding: 3%;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
   position: absolute;
   display: grid;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
+
+  
 }
 
   .search > h1{
@@ -44,7 +44,7 @@
 
 
 .box {
-    max-width: 550px;
+    width: 450px;
     border-radius: 5px;
     overflow: auto;
     background-color: #d1e7dd;
@@ -54,7 +54,7 @@
 
 .table{
 height: 100%;
-width: 100%;
+width: fit-content;
 margin-bottom: 10px;
 }
 .table th:nth-child(1),
@@ -128,8 +128,12 @@ margin-bottom: 10px;
     background-color: #bcd0c7;
   }
 
-  @media screen and (min-width: 1000px){
+  @media screen and (max-width: 1025px){
     .search{
-      left:180px;
+      width: fit-content;
+      left: 51%;
+    }
+    .box{
+      width: 300px;
     }
   }

@@ -10,17 +10,16 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 450px;
-    margin-left: auto;
+    height: 400px;
+    margin-left: 33%;
     margin-right: auto;
-    width: 90%;
-    min-width:fit-content;
+    width: 700px;
     border: 1px solid var(--unnamed-color-707070);
     background: #f2f2f2 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 10px;
     opacity: 1;
-    padding: 2%;
+    padding: 5px;
     margin-bottom: 0;
     margin-top: 120px;
     justify-content: center;
@@ -28,10 +27,14 @@
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1025px) {
     .box {
-    width: 65%;
-    left: 8%;
+    width: 90%;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 0;
     }
 
 }
