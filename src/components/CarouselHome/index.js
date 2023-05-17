@@ -10,7 +10,7 @@ function CarouselHome() {
         <div>
             <div className={styles.titleBox}>
                 <h1 className={styles.titleHome}>Banco de Alimentos</h1>
-                <h2 className={styles.titleHome}>Sistema de controle e gerenciamento e cestas</h2>
+                <h2 className={styles.titleHome}>Sistema de controle e gerenciamento dgit adde cestas</h2>
             </div>
             <div className={styles.carouselInner}>
                     <Carousel  indicators={false}>
