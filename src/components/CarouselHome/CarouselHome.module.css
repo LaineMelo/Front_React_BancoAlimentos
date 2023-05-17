@@ -2,8 +2,10 @@
 .titleHome {
   text-align: center;
   margin-left: 200px;
-  font: normal normal 600 sans-serif;
+  color: #666666;
+
 }
+
 
 .titleBox{
 
@@ -11,6 +13,7 @@
   padding-top: 100px;
   padding-bottom: 10px;
   height: 250px;
+ 
 }
 
 

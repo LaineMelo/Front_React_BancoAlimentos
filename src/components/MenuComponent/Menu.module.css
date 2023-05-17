@@ -6,13 +6,11 @@
 .box{
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
     height: 400px;
-    margin-left: 33%;
-    margin-right: auto;
     width: 700px;
     border: 1px solid var(--unnamed-color-707070);
     background: #f2f2f2 0% 0% no-repeat padding-box;
@@ -21,7 +19,6 @@
     opacity: 1;
     padding: 5px;
     margin-bottom: 0;
-    margin-top: 120px;
     justify-content: center;
     align-items: center;
 
@@ -31,8 +28,9 @@
     .box {
     width: 90%;
     margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
+    top: 35%;
+    left: 51%;
+    right: auto;
     margin-bottom: 50px;
     padding: 0;
     }
