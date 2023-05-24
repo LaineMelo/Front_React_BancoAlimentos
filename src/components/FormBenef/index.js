@@ -60,7 +60,7 @@ function FormBenef() {
     settipoCesta('');
     
     try {
-      const response = await axios.post('https://localhost:7273/api/Beneficiario', data);
+      const response = await axios.post('https://beneficiarioapi.azurewebsites.net/api/Beneficiario', data);
       console.log(response.data);
       alert('Dados salvos com sucesso!');
     } catch (error) {
