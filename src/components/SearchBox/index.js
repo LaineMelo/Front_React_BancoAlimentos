@@ -14,7 +14,7 @@ function SearchBox() {
  
 
     try {
-      const response = await fetch(`https://localhost:7273/api/Beneficiario/${searchId}`);
+      const response = await fetch(`https://beneficiarioapi.azurewebsites.net/api/Beneficiario/${searchId}`);
       const data = await response.json();
 
       // Cria a tabela HTML a partir dos dados JSON
@@ -41,7 +41,7 @@ function SearchBox() {
     event.preventDefault();
 
     try {
-      const response = await fetch(`https://localhost:7273/api/Beneficiario/${searchId}`, {
+      const response = await fetch(`https://beneficiarioapi.azurewebsites.net/api/Beneficiario/${searchId}`, {
       method: 'DELETE'
     });
       // Remove todas as linhas da tabela
